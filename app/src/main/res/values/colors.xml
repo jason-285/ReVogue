@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="clr_black">#1F1F1F</color>
+    <color name="clr_withe">#F8F9FD</color>
+    <color name="clr_light_grey">#E0E0E0</color>
+    <color name="clr_grey">#ADADAD</color>
+    <color name="clr_red">#CF001A</color>
+    <color name="clr_yellow">#F8E040</color>
+    <color name="clr_dark_yellow">#FCC900</color>
+    <color name="clr_orange">#E98D26</color>
+    <color name="clr_dark_orange">#E67900</color>
+    <color name="clr_light_green">#1B917B</color>
+    <color name="clr_green">#02866F</color>
+    <color name="clr_dar_green">#0E5A4D</color>
 </resources>

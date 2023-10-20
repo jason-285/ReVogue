@@ -2,8 +2,149 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.ReVogue" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:background">@color/clr_withe</item>
     </style>
 
-    <style name="Theme.ReVogue" parent="Base.Theme.ReVogue" />
+    ///TextAppearances
+    ///Titles
+    <style name="BigTitle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserratalternates_bold</item>
+        <item name="android:textSize">53sp</item>
+    </style>
+
+    <style name="PresentationTitle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserratalternates_bold</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="PoductDetailTitle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserratalternates_bold</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="ScreenTitle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserratalternates_bold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="SectionTitle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserratalternates_semibold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="CardTitle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserratalternates_semibold</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="DetailTitle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserratalternates_medium</item>
+        <item name="android:textSize">27sp</item>
+    </style>
+
+    <style name="ProfileStatTitle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserratalternates_medium</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+
+    ///Buttons
+    <style name="BigButton" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:textSize">29sp</item>
+    </style>
+
+    <style name="MoreButton" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserratalternates_medium</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+
+    ///Profile Texts
+    <style name="ProfileStats" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">27sp</item>
+    </style>
+
+    <style name="ProfileName" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">27sp</item>
+    </style>
+
+    <style name="ProfileUsername" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+
+    ///Product
+    <style name="SmallName" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="ProductDescription" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_light</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="ProductPrice" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/museomoderno_medium</item>
+        <item name="android:textSize">60sp</item>
+    </style>
+
+    <style name="CardPrice" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/museomoderno_medium</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+
+    ///Messages
+    <style name="SellerMessage" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="UserMessage" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="EraserMessage" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="PreviewMessage" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="MessageTime" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+
+    ///Others texts
+    <style name="AlternativeText" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="Inputs" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="PresentationText" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Record" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
 </resources>

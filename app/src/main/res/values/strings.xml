@@ -1,3 +1,93 @@
 <resources>
+    ///App
     <string name="app_name">ReVogue</string>
+
+    ///Buttons
+    <string name="btn_str_add">Add</string>
+    <string name="btn_str_back">back</string>
+    <string name="btn_str_contact">Contact Seller</string>
+    <string name="btn_str_go">Go</string>
+    <string name="btn_str_login">Log In</string>
+    <string name="btn_str_next">Next</string>
+    <string name="btn_str_see_all">see all</string>
+    <string name="btn_str_see_more">see more</string>
+    <string name="btn_str_signup">Sign Up</string>
+    <string name="btn_str_skip">skip</string>
+
+    ///Categories
+    <string name="category_str_1">Tshirts</string>
+    <string name="category_str_2">Shirts</string>
+    <string name="category_str_3" translatable="false">Tops</string>
+    <string name="category_str_4">Dresses</string>
+    <string name="category_str_5">Skirts</string>
+    <string name="category_str_6">Jackets</string>
+    <string name="category_str_7">Coats</string>
+    <string name="category_str_8">Suits</string>
+    <string name="category_str_9" translatable="false">Shorts</string>
+    <string name="category_str_10">Pants</string>
+    <string name="category_str_11">Leggings</string>
+    <string name="category_str_12">Sandals</string>
+    <string name="category_str_13">Shoes</string>
+    <string name="category_str_14">Tennis</string>
+    <string name="category_str_15">Underwear</string>
+    <string name="category_str_16">Swimsuits</string>
+    <string name="category_str_17">Caps and Hats</string>
+    <string name="category_str_18">Glasses</string>
+    <string name="category_str_19">Gloves</string>
+    <string name="category_str_20">Scarves</string>
+    <string name="category_str_21">Jeweler\'s</string>
+    <string name="category_str_22">Ties</string>
+    <string name="category_str_23">Bag</string>
+    <string name="category_str_24">Belts</string>
+
+    ///Gender
+    <string name="gender_str_1">Man</string>
+    <string name="gender_str_2">Woman</string>
+    <string name="gender_str_3">Child</string>
+    <string name="gender_str_4">Little girl</string>
+    <string name="gender_str_5" translatable="false">Unisex</string>
+
+    ///Inputs
+    <string name="inp_str_add_images">Add images of the garment</string>
+    <string name="inp_str_categories">Categories</string>
+    <string name="inp_str_description">Description</string>
+    <string name="inp_str_email">Email</string>
+    <string name="inp_str_gender">Gender</string>
+    <string name="inp_str_username">Username</string>
+    <string name="inp_str_password">Password</string>
+    <string name="inp_str_last_name">Last Name</string>
+    <string name="inp_str_location">Location</string>
+    <string name="inp_str_name">Name</string>
+    <string name="inp_str_phone">Phone</string>
+    <string name="inp_str_price">Price</string>
+    <string name="inp_str_search">Search</string>
+
+    ///Sentences
+    <string name="sentence_str_alternative">or</string>
+    <string name="sentence_str_alternative_log">New here?</string>
+    <string name="sentence_str_alternative_sign">You have an account?</string>
+    <string name="sentence_str_presentation1">Look in your closet for those clothes that you no longer wear and take advantage of them.</string>
+    <string name="sentence_str_presentation2">Some people\'s old clothes are others\' treasure.</string>
+    <string name="sentence_str_presentation3">Haggle the price of the clothes you like or get more information in the seller\'s chat.</string>
+    <string name="sentence_str_presentation4">By buying used clothing you help reduce the carbon footprint produced by textile companies.</string>
+
+    ///Titles
+    <string name="title_str_add">Add a Garment</string>
+    <string name="title_str_added">Recently Added</string>
+    <string name="title_str_chats" translatable="false">Chats</string>
+    <string name="title_str_collection">Collection</string>
+    <string name="title_str_filters">Filters</string>
+    <string name="title_str_home" translatable="false">Home</string>
+    <string name="title_str_liked">Liked</string>
+    <string name="title_str_likes" translatable="false">Likes</string>
+    <string name="title_str_near">Near You</string>
+    <string name="title_str_presentation1">Sell your clothes</string>
+    <string name="title_str_presentation2">Get something interesting</string>
+    <string name="title_str_presentation3">Trade and chat</string>
+    <string name="title_str_presentation4">Save the planet</string>
+    <string name="title_str_profile">Profile</string>
+    <string name="title_str_profits">Profits</string>
+    <string name="title_str_record">Record</string>
+    <string name="title_str_send">Send</string>
+    <string name="title_str_viewed">Recently Viewed</string>
 </resources>
