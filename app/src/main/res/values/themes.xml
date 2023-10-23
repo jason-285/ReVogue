@@ -9,7 +9,7 @@
     ///Titles
     <style name="BigTitle" parent="TextAppearance.AppCompat">
         <item name="android:fontFamily">@font/montserratalternates_bold</item>
-        <item name="android:textSize">53sp</item>
+        <item name="android:textSize">40sp</item>
     </style>
 
     <style name="PresentationTitle" parent="TextAppearance.AppCompat">
@@ -134,7 +134,7 @@
 
     <style name="Inputs" parent="TextAppearance.AppCompat">
         <item name="android:fontFamily">@font/rubik_regular</item>
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="PresentationText" parent="TextAppearance.AppCompat">

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/btn_str_login"
+        android:textAppearance="@style/BigTitle"
+        android:textColor="@color/clr_black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/img_login" />
+
+    <EditText
+        android:id="@+id/inputUsernameLog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/res_input"
+        android:ems="10"
+        android:hint="@string/inp_str_username"
+        android:inputType="text"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="8dp"
+        android:textAppearance="@style/Inputs"
+        android:textColor="@color/clr_grey"
+        android:textColorHint="@color/clr_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageLogin" />
+
+    <EditText
+        android:id="@+id/inputPasswordLog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/res_input"
+        android:ems="10"
+        android:hint="@string/inp_str_password"
+        android:inputType="text"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="8dp"
+        android:textAppearance="@style/Inputs"
+        android:textColor="@color/clr_grey"
+        android:textColorHint="@color/clr_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputUsernameLog" />
+</androidx.constraintlayout.widget.ConstraintLayout>
