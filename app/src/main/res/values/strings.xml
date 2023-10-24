@@ -63,7 +63,7 @@
     <string name="inp_str_search">Search</string>
 
     ///Sentences
-    <string name="sentence_str_alternative">or</string>
+    <string name="sentence_str_alternative">Another options</string>
     <string name="sentence_str_alternative_log">New here?</string>
     <string name="sentence_str_alternative_sign">You have an account?</string>
     <string name="sentence_str_presentation1">Look in your closet for those clothes that you no longer wear and take advantage of them.</string>
@@ -90,4 +90,8 @@
     <string name="title_str_record">Record</string>
     <string name="title_str_send">Send</string>
     <string name="title_str_viewed">Recently Viewed</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

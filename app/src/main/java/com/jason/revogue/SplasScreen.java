@@ -27,7 +27,7 @@ public class SplasScreen extends AppCompatActivity {
 
         //------------------------------------------------------------------------------------------
 
-        /*INSTANT VARIABLES*/
+        /*INSTANT VAR*/
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
