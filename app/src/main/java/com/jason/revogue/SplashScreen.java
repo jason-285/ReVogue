@@ -16,7 +16,7 @@ import java.util.TimerTask;
 
 /*CLASS*/
 
-public class SplasScreen extends AppCompatActivity {
+public class SplashScreen extends AppCompatActivity {
 
     //----------------------------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@ public class SplasScreen extends AppCompatActivity {
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplasScreen.this, Login.class);
+                Intent intent = new Intent(SplashScreen.this, Login.class);
                 startActivity(intent);
                 finish();
             }

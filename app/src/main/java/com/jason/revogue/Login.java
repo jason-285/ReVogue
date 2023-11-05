@@ -42,8 +42,8 @@ public class Login extends AppCompatActivity {
         skipBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Login.this, MainScreen.class);
-                startActivity(intent);
+                //Intent intent = new Intent(Login.this, MainScreen.class);
+                //startActivity(intent);
             }
         });
 
